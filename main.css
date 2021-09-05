@@ -1,0 +1,126 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(imgs/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    width: 85%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.photo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+}
+
+.par {
+    font-size: 16px;
+    opacity: 65%;
+}
+
+.par1 {
+    text-align: center;
+    width: 80%;
+    margin-top: 0;
+}
+
+.paro {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.par2 {
+    margin-top: 5px;
+}
+
+.Annual {
+    position: relative;
+    left: 6%;
+    top: 9px;
+}
+
+.music {
+    position: relative;
+    left: 3%;
+}
+
+.brad {
+    border-radius: 10px;
+}
+
+.change {
+    position: relative;
+    left: 38%;
+    top: 21px;
+    color: hsl(245deg 75% 52%);
+}
+.change:hover {
+    color:hsl(226deg 100% 71%) ;
+    text-decoration: none;
+}
+
+.button {
+    width: 80%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border: unset;
+    cursor: pointer;
+}
+
+.but1 {
+    color: white;
+    background-color: hsl(245deg 75% 52%);
+}
+.but1:hover {
+  background-color: hsl(226deg 100% 71%);
+}
+
+.but2 {
+    background-color: transparent;
+    margin: 10px 0;
+    opacity: 65%;
+}
+
+.but2:hover {
+    opacity: 100%;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .card {
+        width: 98%;
+    }
+    .photo {
+        width: 100%;
+    }
+    .change {
+        left: 28%;
+    }
+}
